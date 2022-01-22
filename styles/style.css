@@ -1,0 +1,16 @@
+.red-text {color: red;}
+div {display:inline-block; width: 100px
+    ;height: 50px;}
+.div-1{background-color: chartreuse;}
+.div-2{background-color: crimson;}
+.div-3{background-color: yellow;}
+.color-white{color: white;}
+h1, h2 {font-family: 'Lobster', cursive;
+cursor: pointer;}
+ h3 {font-family: 'BPG Glaho Bold',serif;
+font-style: italic;
+font-weight: 700;
+text-decoration: underline;
+line-height:20px;
+cursor: pointer;
+}
