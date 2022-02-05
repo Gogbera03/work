@@ -1,0 +1,9 @@
+.notification-block{text-align: center;
+padding-block:5px;
+background-color: darkgoldenrod;
+color: white;
+width: 100%;}
+.notification-block p{margin: 0;
+font-size: 14px;}
+.notification-block a{color: dodgerblue;
+text-decoration:none;}

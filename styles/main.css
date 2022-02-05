@@ -1,0 +1,10 @@
+.welcome-container .container{display:grid;
+grid-template-columns: 1fr minmax(0, 2fr);}
+.welcome-container .img-prev{width: 100%;}
+.welcome-container{background-color: #2c2c32;
+padding-block:30px;}
+.welcome-container h5 span{ font-weight: normal;}
+.welcome-container h5{color: white;
+text-align: center;}
+.welcome-container .container div:first-child{text-align: center;}
+.welcome-container p {color: rgba(255,255,255,.6);}
