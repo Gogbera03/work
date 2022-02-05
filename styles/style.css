@@ -1,3 +1,6 @@
+@import './header.css';
+@import './flexbox.css';
+@import './global.css';
 .red-text {color: red;}
 div {display:inline-block; width: 100px
     ;height: 50px;}
@@ -12,5 +15,5 @@ font-style: italic;
 font-weight: 700;
 text-decoration: underline;
 line-height:20px;
-cursor: pointer;
-}
+cursor: pointer;}
+a{cursor: pointer;}

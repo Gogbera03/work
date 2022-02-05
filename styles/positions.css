@@ -1,0 +1,11 @@
+.parent-div{width: 300px;
+background-color:bisque;
+padding: 30px;
+position:relative;}
+.parent-div div{height:150px;}
+.div-2{background-color: teal;
+position: absolute;
+right: 0%;
+bottom: 0%;
+height:20px;
+}
