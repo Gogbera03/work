@@ -3,8 +3,55 @@ grid-template-columns: 1fr minmax(0, 2fr);}
 .welcome-container .img-prev{width: 100%;}
 .welcome-container{background-color: #2c2c32;
 padding-block:30px;}
-.welcome-container h5 span{ font-weight: normal;}
+.welcome-container h5 span{ font-weight: normal;font-size: 20px;}
 .welcome-container h5{color: white;
-text-align: center;}
+text-align: center;
+margin:0%;}
 .welcome-container .container div:first-child{text-align: center;}
-.welcome-container p {color: rgba(255,255,255,.6);}
+.welcome-container p {color: rgba(255,255,255,.6);
+margin: 0%;}
+.welcome-container .download-container {background-color: dodgerblue;
+color: white;
+display: grid;
+grid-template-columns: 5fr 1fr;
+height:58px;}
+.welcome-container .download-container h6{margin:0%;}
+.welcome-container .download-container > div:first-child{ 
+align-items:center;
+display:flex;
+justify-content:center;
+border-right:2px solid #2c2c32;}
+.welcome-container .download-container > div:last-child{ 
+    align-items: center;
+    display: flex;
+    justify-content: center;}
+    .tooltip-container{font-size: 14px;
+    padding-block: 7px;
+border-radius: 10px;
+background-color: rgb(37, 37, 43);
+margin: 15px;
+position: relative;}
+    .tooltip-container a{color: dodgerblue;
+    text-decoration: none;}
+    .tooltip-container p{margin: 0%;}
+    .tooltip-container::after{content: '';
+    background-color:rgb(37, 37, 43) ;
+width: 15px;
+height: 15px;
+transform: rotate(45deg);
+position: absolute;
+right: 15px;
+top: -7px;}
+.rules-container{font-size: 12px;}
+.rules-container a{ color: dodgerblue;}
+.rules-container p{margin: 0%;}
+.features-container .container {display: grid;
+grid-template-columns: repeat(4, 1fr);}
+.features-container i{font-size: 65px;
+margin-bottom: 15px;}
+.features-container{text-align: center;}
+.features-container .container > div{padding-block: 30px;}
+.features-container .container > div:first-child:hover i {color: firebrick;}
+.features-container .container > div:nth-child(2):hover i{color: green;}
+.features-container .container > div:nth-child(3):hover i{color: dodgerblue;}
+.features-container .container > div:last-child:hover i{color: yellow;}
