@@ -39,7 +39,7 @@ position: relative;}
 width: 15px;
 height: 15px;
 transform: rotate(45deg);
-position: absolute;
+position: relative;
 right: 15px;
 top: -7px;}
 .rules-container{font-size: 12px;}
@@ -55,3 +55,46 @@ margin-bottom: 15px;}
 .features-container .container > div:nth-child(2):hover i{color: green;}
 .features-container .container > div:nth-child(3):hover i{color: dodgerblue;}
 .features-container .container > div:last-child:hover i{color: yellow;}
+section{padding-block:60px;}
+section:nth-child(odd){background-color: rgb(245, 245, 245);}
+.testimonial-section > div {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+   grid-column-gap:15px;
+   position: relative;
+}
+.testimonial-section .container{width: 750px;}
+.testimonial-section > div .arrow {position:absolute;
+font-size: 40px;
+top: 80px;
+cursor: pointer;}
+.testimonial-section > div .arrow.fa-arrow-right {right:-50px;}
+.testimonial-section > div .arrow.fa-arrow-left{ left:-50px;}
+.info-section img{width:100%;
+display: block;}
+.info-section > div{ display:flex;
+align-items: center;
+gap: 30px;}
+.info-section > div div:first-child{width:45%;}
+.info-section .container p{margin: 0%;}
+.info-section:nth-child(odd) > div div:first-child{order:2;}
+.info-section:nth-child(odd) > div div:last-child{ order:1;}
+.external-langs h3{text-align: center;}
+.external-langs .d-grid{display: grid;
+grid-template-columns:repeat(6, minmax(0, 1fr));
+gap:15px;}
+.external-langs .external-link {display:block;
+color: dodgerblue;
+text-decoration: none;
+text-align: center;
+margin-top:30px;
+margin-bottom: 60px;}
+.external-langs .btn{display: flex;
+background-color: dodgerblue;
+text-decoration: none;
+text-align: center;
+width:200px;
+height:50px;
+align-items: center;
+justify-content: center;
+margin: auto;}

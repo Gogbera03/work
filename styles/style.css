@@ -3,6 +3,7 @@
 @import './global.css';
 @import './notification.css';
 @import './main.css';
+@import './card.css';
 h1, h2 {font-family: 'Lobster', cursive;
 cursor: pointer;}
  h3 {font-family: 'BPG Glaho Bold',serif;

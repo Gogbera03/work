@@ -1,0 +1,15 @@
+.user-card{display: grid; grid-template-columns:72px minmax(0, 1fr);
+grid-column-gap: 15px;}
+.user-card .avatar {width: 72px;
+height: 72px;
+border-radius: 100%;}
+.user-card .text-container a {
+    display: flex;
+    color: black;
+    justify-content:space-between;
+    align-items:center;
+    text-decoration: none;}
+.user-card .text-container h4 {margin: 0%;}
+.user-card .text-container p {margin: 0%;}
+.user-card .text-container h4 span {color: gray;
+font-weight: normal;}
